@@ -1,0 +1,425 @@
+@media screen and (max-width: 1600px) {
+  .container {
+    width: calc(100% - 160px);
+  }
+  .logo svg {
+    width: 33px;
+  }
+  header .login {
+    padding: 12px 24px;
+  }
+  .title {
+    width: 941px;
+  }
+  .title .firstpt {
+    width: 607px;
+    font-size: 22px;
+    font-weight: 600;
+    padding: 12px 24px 12px 12px;
+  }
+  .title .firstpt svg {
+    width: 33px;
+  }
+  .iconf {
+    padding: 12px 12px;
+  }
+  .secondpt h2 {
+    font-size: 26px;
+  }
+  .title .thirdpt a {
+    font-size: 14px;
+    padding: 14px 20px;
+  }
+  .benefits .top-section {
+    margin-top: 100px; /**/
+  }
+  .benefits .top-section p {
+    font-size: 16px;
+  }
+  .start-top h2 {
+    font-size: 38px;
+  }
+  .last-top {
+    font-size: 14px;
+    padding: 14px 20px;
+  }
+  .number {
+    font-size: 60px;
+  }
+  .benefit {
+    padding: 40px;
+    gap: 40px;
+  }
+
+  .description h4 {
+    font-size: 20px;
+  }
+  .description p {
+    font-size: 16px;
+  }
+  .icon-showmore svg {
+    width: 26px;
+  }
+  .icon-showmore {
+    padding: 14px;
+  }
+  .course {
+    width: calc((100% - 20px) / 2);
+    padding: 40px;
+  }
+  .courses .bottom {
+    gap: 20px;
+    margin-top: 60px;
+  }
+  .crs-details {
+    font-size: 18px;
+  }
+  .course a {
+    padding: 14px 24px;
+    font-size: 14px;
+  }
+  .start .span {
+    padding: 8px 14px;
+    font-size: 16px;
+  }
+  .testimonials .bottom {
+    margin-top: 60ox;
+    gap: 20px;
+  }
+  .testimonial {
+    width: calc((100% - 20px) / 2);
+  }
+  .testimonial p {
+    padding: 40px;
+    font-size: 16px;
+  }
+  .testimonial img {
+    width: 50px;
+    height: 50px;
+  }
+  .user-info {
+    font-size: 16px;
+    padding: 24px 40px;
+  }
+  .user-info a {
+    padding: 14px 16px;
+    font-size: 14px;
+  }
+  .pricing .bottom {
+    margin-top: 60px;
+    padding: 50px;
+  }
+  .price-plan {
+    padding: 40px 24px 24px 24px;
+  }
+  .price-plan h5 {
+    font-size: 22px;
+    padding: 10px 22px;
+  }
+  .price span {
+    font-size: 16px;
+  }
+  .plan-details {
+    padding: 30px;
+  }
+  .plan-details h6 {
+    font-size: 18px;
+  }
+  .point svg {
+    width: 16px;
+    height: 16px;
+  }
+  .existing,
+  .existing-no {
+    padding: 4px;
+  }
+  .point p {
+    font-size: 14px;
+  }
+  .price-plan a {
+    font-size: 14px;
+    padding: 18px 24px;
+  }
+  footer {
+    margin-top: 136px;
+    padding: 60px 0px 20px 0px;
+  }
+  footer .container {
+    gap: 30px;
+  }
+  footer .logo svg {
+    width: 32.5px;
+    height: 32.5px;
+  }
+  footer .logo {
+    padding: 5.704px;
+  }
+  footer .footer-start {
+    gap: 30px;
+    width: fit-content;
+  }
+  .contacts {
+    gap: 14px;
+  }
+  .contacts svg {
+    width: 20px;
+    height: 20px;
+  }
+  .contact {
+    font-size: 16px;
+    width: fit-content;
+  }
+  .footer-end {
+    gap: 24px;
+  }
+  .footer-item {
+    gap: 10px;
+    width: 245.5px;
+  }
+  .footer-item h3 {
+    font-size: 18px;
+  }
+  .footer-item .list {
+    font-size: 16px;
+  }
+  .social-icons {
+    padding: 12px;
+  }
+  .social-icons svg {
+    width: 20px;
+    height: 20px;
+  }
+  .rights {
+    font-size: 14px;
+  }
+}
+@media screen and (max-width: 1300px) {
+  .footer-item {
+    width: 160px;
+  }
+}
+
+@media screen and (max-width: 1000px) {
+  .container {
+    width: calc(100% - 32px);
+    margin: auto;
+  }
+
+  header {
+    margin-top: 40px;
+    font-size: 14px;
+  }
+  header nav {
+    display: none;
+  }
+  header .auth svg {
+    display: block;
+  }
+  header .auth {
+    gap: 15px;
+  }
+  .logo {
+    padding: 5px;
+  }
+  .logo svg {
+    width: 30px;
+  }
+  header .auth .login {
+    padding: 12px 20px;
+  }
+  .title {
+    width: calc(100% - 32px);
+  }
+  .title .firstpt {
+    width: fit-content;
+    text-align: center;
+  }
+  .firstpt h1 {
+    font-size: 17px;
+  }
+  .title .firstpt svg {
+    width: 19px;
+    height: 19px;
+  }
+  .iconf {
+    padding: 12px 12px;
+  }
+  .firstpt h1 {
+    font-size: 19px;
+    font-weight: 600;
+  }
+  .secondpt {
+    padding: 0px 30px;
+    text-align: center;
+  }
+  .secondpt h2 {
+    font-size: 24px;
+  }
+  .benefit {
+    width: calc((100% - 20px) / 2);
+  }
+  .course {
+    width: 100%;
+  }
+  .testimonial {
+    width: 100%;
+  }
+  .price-plan {
+    width: 100%;
+  }
+  footer .row {
+    margin-left: 5px;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 50px;
+  }
+}
+@media screen and (max-width: 600px) {
+  .firstpt h1 {
+    font-size: 14px;
+  }
+  .title .firstpt {
+    padding: 14px;
+  }
+
+  .benefits .top-section p {
+    font-size: 14px;
+  }
+  .start-top h2 {
+    font-size: 28px;
+  }
+  .last-top {
+    font-size: 14px;
+    padding: 14px 20px;
+  }
+  .number {
+    font-size: 50px;
+  }
+  .benefit {
+    padding: 40px;
+    gap: 40px;
+  }
+  .description p {
+    font-size: 14px;
+  }
+  .benefits .row , .courses .row ,.testimonials .row{
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 20px;
+  }
+  .benefit {
+    width: 100%;
+  }
+  .course {
+    padding: 24px;
+  }
+  .crs-details {
+    font-size: 16px;
+  }
+  .course a {
+    padding: 14px 24px;
+    font-size: 14px;
+  }
+  .courses .bottom {
+    gap: 20px;
+    margin-top: 40px;
+  }
+  .crs-details {
+    font-size: 16px;
+    flex-direction: column;
+    gap: 14px;
+    align-items: flex-start;
+  }
+  .start span {
+    font-size: 14px;
+    padding: 8px 14px;
+  }
+  .testimonials .bottom {
+    margin-top: 40ox;
+    gap: 20px;
+  }
+  .testimonial p {
+    padding: 30px;
+    font-size: 14px;
+  }
+  .testimonial img {
+    width: 50px;
+    height: 50px;
+  }
+  .user-info {
+    font-size: 16px;
+    padding: 20px 30px;
+  }
+  .user-info a {
+    padding: 14px 16px;
+    font-size: 14px;
+  }
+
+  .pricing .bottom {
+    margin-top: 40px;
+    padding: 20px;
+  }
+  .price-plan {
+    padding: 30px 20px 20px 20px;
+  }
+  .price-plan h5 {
+    font-size: 16px;
+    padding: 8px 22px;
+  }
+  .price span {
+    font-size: 14px;
+  }
+  .plan-details {
+    padding: 15px;
+  }
+  .plan-details h6 {
+    font-size: 18px;
+  }
+  .point {
+    padding: 12px;
+  }
+  .point svg {
+    width: 16px;
+    height: 16px;
+  }
+  .existing,
+  .existing-no {
+    padding: 4px;
+  }
+  .price-plan a {
+    padding: 18px 24px;
+  }
+  footer {
+    margin-top: 80px;
+    padding: 50px 0px 24px 0px;
+  }
+  footer .container {
+    gap: 20px;
+  }
+  .contacts {
+    gap: 12px;
+  }
+  .contacts svg {
+    width: 24px;
+    height: 24px;
+  }
+  .contact {
+    font-size: 15px;
+  }
+  .footer-end {
+    gap: 30px;
+  }
+  .footer-item:first-of-type {
+    width: 150px;
+  }
+  .footer-item h3 {
+    font-size: 18px;
+  }
+  .footer-item .list {
+    font-size: 14px;
+    gap: 4px;
+  }
+  .rights {
+    font-size: 14px;
+  }
+}
