@@ -27,6 +27,9 @@ ul {
   align-items: center;
   flex-wrap: wrap;
 }
+.top-section .row{
+  gap: 14px;
+}
 header {
   position: sticky;
   width: 100%;
@@ -85,7 +88,6 @@ header .auth .login {
   border-radius: 8px;
 }
 .title {
-  width: 965px;
   margin: auto;
   display: flex;
   flex-direction: column;
@@ -96,18 +98,20 @@ header .auth .login {
 }
 .title .firstpt {
   display: flex;
+  color: var(--Grey-10, #1A1A1A);
   width: fit-content;
   flex-wrap: wrap;
-  font-size: 30px;
+  font-size: 48px;
   font-weight: 600;
   background-color: #fff;
   border: 1px solid #f1f1f3;
-  padding: 20px 14px;
+  padding: 14px 30px 14px 20px;
   justify-content: center;
   align-items: center;
   gap: 10px;
   border-radius: 11px;
 }
+
 .diffword:before {
   color: #ff9500;
   content: "Unlock ";
@@ -123,6 +127,15 @@ header .auth .login {
   background-color: #fff4e5;
   justify-content: center;
   align-items: center;
+  position: relative;
+
+}
+.outericon svg{
+  width: 39px;
+height: 43px;
+position: absolute;
+left: -46px;
+top: -59px;
 }
 .secondpt {
   display: flex;
@@ -130,10 +143,18 @@ header .auth .login {
   justify-content: center;
   align-items: center;
   gap: 10px;
+  color: var(--Grey-15, #262626);
+
 }
 .secondpt h2 {
   font-weight: 500;
-  font-size: 34px;
+  font-size: 38px;
+  font-weight: 500;
+  line-height: 150%; /* 57px */
+
+}
+.secondpt p{
+  font-size: 18px;
 }
 .thirdpt {
   display: flex;
@@ -159,11 +180,36 @@ header .auth .login {
   text-align: center;
   font-size: 18px;
 }
+.platforms{
+  margin-bottom: 100px;
+}
+.platforms .container{
+display: flex;
+padding: 30px 0px 30px 0px;
+align-items: flex-start;
+border-radius: 12px;
+border: 1px solid var(--White-95, #F1F1F3);
+background: var(--White-99, #FCFCFD);
+justify-content: space-around;
+
+}
+.platform svg{
+  height: 34px;
+}
+.platform:nth-last-of-type(1) {
+ border: 0px;
+}
+
+.platform {
+  padding: 30px 40px;
+ border-right: 2px solid #F1F1F3; 
+}
 .advid img {
   width: 100%;
+  align-self: stretch;
 }
 .benefits .top-section {
-  margin-top: 150px; /**/
+  margin-top: 150px; 
 }
 .top-section .row {
   gap: 18%;
@@ -282,11 +328,11 @@ header .auth .login {
   padding: 10px 16px;
   color: var(--Grey-30, #4c4c4d);
 }
-
 .course a {
   color: 262626;
   display: flex;
   padding: 18px 24px;
+  font-size: 18px;
   justify-content: center;
   align-items: center;
   align-self: stretch;
@@ -294,6 +340,7 @@ header .auth .login {
   border-radius: 8px;
   border: 1px solid var(--White-95, #f1f1f3);
 }
+
 .testimonials .top-section {
   margin-top: 100px;
 }
