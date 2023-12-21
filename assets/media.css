@@ -342,7 +342,7 @@
   .iconf {
     padding: 12px 12px;
   }
-  .firstpt .iconf .outericon svg{
+  .title .firstpt .iconf .outericon svg{
     left: -22px;
     top: -30px;
     width: 34px;
@@ -517,7 +517,7 @@
     font-size: 14px;
   }
 }
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 360px) {
   header .logo svg {
     width: 25px;
   }
@@ -527,7 +527,25 @@
   header .auth .login {
     padding: 12px 12px;
   }
+  header .auth .SignUp{
+    padding: 12px 5px;
+  }
   .auth{
-    gap:7px
+    gap:2px
+  }
+  .thirdpt{
+    justify-content: center;
+  }
+  .iconf{
+    padding: 8px;
+  }
+  .firstpt .iconf .outericon svg {
+    width: 26px;
+    height: 26px;
+    left: -18px;
+    top: -19px;
+  }
+  .title .firstpt{
+    padding: 10px;
   }
 }

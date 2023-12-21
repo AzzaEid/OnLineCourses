@@ -430,6 +430,8 @@ height: 44px;
 }
 .course img {
   width: 100%;
+  filter: brightness(110%);
+ background-color: lightgray 50%;
 }
 .crs-details {
   width: 100%;
